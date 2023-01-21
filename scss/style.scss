@@ -1,0 +1,14 @@
+$upper-color: #000000;
+$lower-color: #ffb92a;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient($upper-color 50%, $lower-color 50%);
+}
