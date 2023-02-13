@@ -45,3 +45,13 @@ body {
   padding: 0.7em;
   color: #ffffff;
 }
+
+.search-container input:focus {
+  border-color: white;
+}
+
+.search-container button {
+  background-color: #c62aff;
+  border: none;
+  cursor: pointer;
+}
