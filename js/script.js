@@ -8,3 +8,4 @@ let getMovie = () => {
   let movieName = movieNameRef.value;
   let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${}`;
 };
+
