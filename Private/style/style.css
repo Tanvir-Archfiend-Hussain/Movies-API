@@ -31,4 +31,15 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+header .logo {
+  background-color: red;
+  position: relative;
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=style.css.map */
