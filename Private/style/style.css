@@ -42,4 +42,8 @@ header .logo {
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 1px;
+}
+
+header .navigation a {
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
