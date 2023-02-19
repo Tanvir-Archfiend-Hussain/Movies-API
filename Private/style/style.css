@@ -37,7 +37,7 @@ header .logo {
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 1px;
-  padding: 30px;
+  padding: 23px;
   border-radius: 30px;
   margin: 20px;
 }
@@ -80,4 +80,19 @@ header .navigation a:hover {
   font-size: 55px;
   text-transform: uppercase;
   font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.content .info h2 span {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.content .info p {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */
