@@ -68,6 +68,13 @@ header .navigation a:hover {
   color: black;
 }
 
+.content {
+  background: rgba(172, 0, 0, 0.484);
+  margin: 30px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
 .content .info h2 {
   max-width: 650px;
   font-size: 55px;
