@@ -45,8 +45,14 @@ header .logo {
 }
 
 header .navigation a {
-  color: #000;
+  color: white;
   text-decoration: none;
   font-weight: 500;
-  letter-spacing: #fff;
+  letter-spacing: 1px;
+  padding: 2px 15px;
+  border-radius: 20px;
+}
+
+header .navigation a:not(:last-child) {
+  margin-right: 30px;
 }/*# sourceMappingURL=style.css.map */
