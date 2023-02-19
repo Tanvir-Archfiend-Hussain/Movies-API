@@ -6,11 +6,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  background: url();
-  background-size: contain;
-}
-
 section {
   background-color: rebeccapurple;
   position: relative;
@@ -48,7 +43,7 @@ header .logo {
 }
 
 header .navigation {
-  background-color: rgb(172, 0, 0);
+  background-color: rgba(172, 0, 0, 0.484);
   padding: 30px;
   border-radius: 30px;
 }
