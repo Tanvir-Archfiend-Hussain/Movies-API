@@ -2,6 +2,8 @@
 $base-color: rgba(172, 0, 0, 0.484);
 $base-border-radius: 30px;
 $-teal-basecolor: rgba(0, 255, 255, 0.576);
+$-teal-Second-base: #0c4f60;
+$-transition-one: 0.6s;
 
 * {
   margin: 0;
@@ -33,9 +35,9 @@ header {
 }
 
 header .logo {
-  background-color: $base-color;
+  background-color: $-teal-Second-base;
   position: relative;
-  color: #000;
+  color: white;
   font-size: 30px;
   text-decoration: none;
   text-transform: uppercase;
@@ -59,7 +61,7 @@ header .navigation a {
   letter-spacing: 1px;
   padding: 2px 15px;
   border-radius: 16px;
-  transition: 0.6s;
+  transition: $-transition-one;
   transition-property: background;
 }
 
@@ -103,7 +105,13 @@ header .navigation a:hover {
 
 .content .info-btn {
   color: #fff;
-  background: $-teal-basecolor;
+  background: $-teal-Second-base;
   padding: 15px;
   border-radius: $base-border-radius;
+  transition: $-transition-one;
+  text-decoration: none;
+}
+
+.content .info-btn:hover {
+  background-color: $-teal-basecolor;
 }

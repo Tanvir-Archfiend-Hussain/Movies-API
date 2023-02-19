@@ -29,9 +29,9 @@ header {
 }
 
 header .logo {
-  background-color: rgba(172, 0, 0, 0.484);
+  background-color: #0c4f60;
   position: relative;
-  color: #000;
+  color: white;
   font-size: 30px;
   text-decoration: none;
   text-transform: uppercase;
@@ -99,7 +99,13 @@ header .navigation a:hover {
 
 .content .info-btn {
   color: #fff;
-  background: rgba(0, 255, 255, 0.576);
+  background: #0c4f60;
   padding: 15px;
   border-radius: 30px;
+  transition: 0.6s;
+  text-decoration: none;
+}
+
+.content .info-btn:hover {
+  background-color: rgba(0, 255, 255, 0.576);
 }/*# sourceMappingURL=style.css.map */
