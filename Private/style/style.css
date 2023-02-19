@@ -132,4 +132,15 @@ header .navigation a:hover {
 .media-icons a:hover {
   transform: scale(1.5);
   transition: 0.6s;
-}/*# sourceMappingURL=style.css.map */
+  color: rgba(0, 255, 255, 0.576);
+}
+
+label {
+  display: none;
+}
+
+#check {
+  z-index: 3;
+}
+
+/* Responsive Style*//*# sourceMappingURL=style.css.map */

@@ -138,4 +138,15 @@ header .navigation a:hover {
 .media-icons a:hover {
   transform: scale(1.5);
   transition: $-transition-one;
+  color: $-teal-basecolor;
 }
+
+label {
+  display: none;
+}
+
+#check {
+  z-index: 3;
+}
+
+/* Responsive Style*/
