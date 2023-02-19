@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 $base-color: rgba(172, 0, 0, 0.484);
 $base-border-radius: 30px;
+$-teal-basecolor: rgba(0, 255, 255, 0.576);
 
 * {
   margin: 0;
@@ -58,7 +59,7 @@ header .navigation a {
   letter-spacing: 1px;
   padding: 2px 15px;
   border-radius: 16px;
-  transition: 0.3s;
+  transition: 0.6s;
   transition-property: background;
 }
 
@@ -67,8 +68,8 @@ header .navigation a:not(:last-child) {
 }
 
 header .navigation a:hover {
-  background: #fff;
-  color: black;
+  background: $-teal-basecolor;
+  color: white;
 }
 
 .content {
@@ -98,4 +99,11 @@ header .navigation a:hover {
   font-weight: 500;
   font-size: 16px;
   margin-bottom: 40px;
+}
+
+.content .info-btn {
+  color: #fff;
+  background: $-teal-basecolor;
+  padding: 15px;
+  border-radius: $base-border-radius;
 }
