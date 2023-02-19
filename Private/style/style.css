@@ -46,6 +46,12 @@ header .logo {
   margin: 20px;
 }
 
+header .navigation {
+  background-color: red;
+  padding: 30px;
+  border-radius: 30px;
+}
+
 header .navigation a {
   color: white;
   text-decoration: none;
@@ -55,7 +61,6 @@ header .navigation a {
   border-radius: 16px;
   transition: 0.3s;
   transition-property: background;
-  margin: 20px;
 }
 
 header .navigation a:not(:last-child) {
@@ -71,4 +76,5 @@ header .navigation a:hover {
   max-width: 650px;
   font-size: 55px;
   text-transform: uppercase;
+  font-weight: 800;
 }/*# sourceMappingURL=style.css.map */
