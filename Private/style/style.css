@@ -141,6 +141,7 @@ label {
 
 #check {
   z-index: 3;
+  display: none;
 }
 
 #close-btn,
@@ -218,7 +219,7 @@ label {
     line-height: 40px;
   }
   .content .info h2 span {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
   }
   .content .info p {
