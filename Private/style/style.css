@@ -188,4 +188,12 @@ label {
   #check:checked ~ header label .menu-btn {
     display: none;
   }
+  #check:checked ~ header label .close-btn {
+    z-index: 2;
+    display: block;
+    position: fixed;
+  }
+  label .menu-btn {
+    position: absolute;
+  }
 }/*# sourceMappingURL=style.css.map */
