@@ -150,3 +150,24 @@ label {
 }
 
 /* Responsive Style*/
+@media (max-width: 960px) {
+  header .navigation {
+    display: none;
+  }
+
+  label {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  label:hover {
+    color: $-teal-Second-base;
+    transition: $-transition-one;
+    scale: 1.1;
+  }
+
+  label #close-btn {
+    display: none;
+  }
+}
